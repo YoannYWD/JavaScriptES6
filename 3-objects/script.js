@@ -15,7 +15,7 @@ const bus = {
 console.log(bus.line);  //consulter un objet avec notation pointée
 console.log(bus.garage.name); //idem
 console.log(bus.equipments[1]); //consulter un object avec notation pointée puis tableau [] qui commence à 0 pour la première valeur
-
+console.log(Object.entries(bus));
 
 //3.2 Object.values //renvoie un tableau contenant les valeurs des propriétés propres énumérables d'un objet 
 
