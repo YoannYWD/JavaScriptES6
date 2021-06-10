@@ -15,6 +15,7 @@ console.log(name, age, useless)
 //Elle signifie que l'âge ne peut être une constante, puisqu'il va être modifié juste après (age+=1).
 //5) Changer une chaine de caractère en 14 n'est pas possible en const
 
+
 //----------------------//
 //1.2 Tableaux
 
@@ -31,7 +32,7 @@ console.log(fruits, vegetables)
 //2)Il n'y a pas d'erreur car les constantes ne sont pas modifiées (on ajoute juste un élément au tableau).
 
 //----------------------//
-//1.2 Objets
+//1.3 Objets
 
 const settings = {
     sound: true,
