@@ -3,8 +3,8 @@ export const showError = message => console.error(message)
 
 
 
-/// C'est celle-là, la fonction anonyme ///
-export default () => {
+/// C'est celle la , la fonction anonyme ///
+export const anonyme = () => {
     var _nyan = 0;
 var __nyan = [[
 "+      o     +              o      ",
@@ -44,5 +44,5 @@ function nyan(){
     if(_nyan == 0){ _nyan = 1; } else { _nyan = 0; }
 }
 
-window.setInterval(nyan, 1000)
+window.setInterval(nyan, 300)
 }

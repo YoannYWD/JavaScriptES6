@@ -1,3 +1,4 @@
+
 //2.1 Fonctions simples
 const sayHello = () => {
     console.log('Hello')
@@ -49,6 +50,53 @@ const odile = {
         last: 'Crok'
     },
     age: 23,
+
+    sayHello: () => {
+        console.log('Hello !')},
+    sayMyName: () => {
+        console.log(odile.name.first, odile.name.last);
+    },
+    sayMyAge: () => {
+        console.log("I'm " + odile.age + " yo !");
+    }
+
+}
+
+odile.sayHello()
+odile.sayMyName()
+odile.sayMyAge()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+const odile = {
+    name: {
+        first: 'Odile',
+        last: 'Crok'
+    },
+    age: 23,
     sayHello: () => {
         console.log('Hello')},
     sayMyName: () => {
@@ -59,4 +107,4 @@ const odile = {
 
 odile.sayHello()
 odile.sayMyName()
-odile.sayMyAge()
+odile.sayMyAge()*/
